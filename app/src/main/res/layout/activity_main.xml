@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Campo para ingresar el nombre -->
+    <EditText
+        android:id="@+id/etNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese nombre"/>
+
+    <!-- Campo para ingresar la edad -->
+    <EditText
+        android:id="@+id/etEdad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese edad"
+        android:inputType="number"/>
+
+    <!-- Botón para guardar el usuario -->
+    <Button
+        android:id="@+id/btnGuardar"
+        android:layout_width="377dp"
+        android:layout_height="wrap_content"
+        android:text="Guardar" />
+
+    <!-- Botón para mostrar la lista de usuarios -->
+    <Button
+        android:id="@+id/btnMostrar"
+        android:layout_width="377dp"
+        android:layout_height="wrap_content"
+        android:text="Mostrar Usuarios" />
+
+    <!-- TextView para mostrar la lista de usuarios -->
+    <TextView
+        android:id="@+id/tvListaUsuarios"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lista de Usuarios"
+        android:textSize="18sp"/>
+
+</LinearLayout>
